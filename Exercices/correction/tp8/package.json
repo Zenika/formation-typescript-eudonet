@@ -1,0 +1,32 @@
+{
+  "name": "formation-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint ./src",
+    "start": "ts-node src/tp8.ts",
+    "start:dev": "nodemon -e ts -w ./src -x npm start",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@types/lodash": "^4.14.185",
+    "@types/node": "^18.7.18",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.23.1",
+    "jest": "^29.0.3",
+    "nodemon": "^2.0.20",
+    "ts-jest": "^29.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
